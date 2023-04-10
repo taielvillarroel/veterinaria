@@ -40,24 +40,24 @@ nav a{
     height: 80vh;
 }
 
-.uno{
+.productos{
     display: flex;
     flex-direction: column;
     color: white;
 }
-.uno h1{
+.productos h1{
     margin-top: 5%;
     margin-left: 14%;
     font-size: 5rem;
     font-weight: 700;
 }
-.uno p{
+.productos p{
     margin-top: 1%;
     margin-left: 14%;
     font-size: 20px;
     
 }
-.uno button{
+.productos button{
     padding: 15px 15px;
     width: 13%;
     margin-top: 2%;
@@ -69,7 +69,7 @@ nav a{
     font-weight: 800;
     cursor: pointer;
 }
-.uno button:hover{
+.productos button:hover{
     transition: .5s;
     background-color: #f53A50;
     color: white;
@@ -125,21 +125,21 @@ nav a{
 }
 
 
-.boton img{
+.btn img{
     border-radius: 10px;
     box-shadow: 0px 0px 20px #f53a50;
     margin-top: 15%;
     width: 95%;
 }
-.boton h3{
+.btn h3{
     color: #f53A50;
     margin-top: 15%;
 }
-.boton p{
+.btn p{
     margin-top: 8%;
     font-size: 15px;
 }
-.boton button{
+.btn button{
     padding: 12px 25px;
     width: 65%;
     background-color: #f53A50;
@@ -190,28 +190,28 @@ nav a{
 
 /* EMPIEZA EL EBOOKS Y MANUALS */
 
-.tres{
+.ebooks{
     background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
     height: 50vh;
     margin-top: 4%;
 }
-.manuals{
+.manuales{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.manuals h2{
+.manuales h2{
     margin-top: 3%;
     font-size: 50px;
     color: white;
 }
-.manuals p{
+.manuales p{
     margin-top: 3%;
     text-align: center;
     color: white;
 }
-.manuals button{
+.manuales button{
     padding: 15px 25px;
     background-color: white;
     color: #f53A50;
@@ -221,7 +221,7 @@ nav a{
     margin-top: 3%;
     cursor: pointer;
 }
-.manuals button:hover{
+.manuales button:hover{
     transition: .5s;
     background-color: #f53A50;
     color: white;
@@ -231,7 +231,7 @@ nav a{
 
 /* EMPIEZA FOTO PERRO */
 
-.cuatro{
+.img-perro{
     background-color: #c21d5f;
     background-image: url(./img/perro2.png);
     background-size: cover;
@@ -269,11 +269,11 @@ nav a{
     margin-bottom: 7%;
     color: #f53A50;
 }
-.primerap{
+.one-text{
     margin-bottom:10%;
 }
 
-.tarjeta1, .tarjeta2, .tarjeta3{
+.tg-1, .tg-2, .tg-3{
     margin-top: 15%;
     margin-bottom: 15%;
     padding: 10px 0px 10px 50px;
@@ -285,10 +285,10 @@ nav a{
     margin-left: 10px;
     box-shadow: 0px 0px 9px white, 0px 0px 5px #f53a50;
 }
-.unop{
+.uno{
     font-weight: 600;
 }
-.tarjeta1 img, .tarjeta2 img, .tarjeta3 img{
+.tg-1 img, .tg-2 img, .tg-3 img{
     position: absolute;
     border-radius: 7px;
     left: 52%;
@@ -328,7 +328,7 @@ nav a{
     margin-top: 15%;
     font-size: 15px;
 }
-.tarjetareviw{
+.tg-reviw{
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -343,20 +343,20 @@ nav a{
 
 /* EMPIEZA EL UNIQUE PRODUCTS */
 
-.unique{
+.exclusive{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.productosunique h2{
+.exclusive-products h2{
     font-size: 45px;
     margin-top: 15%;
     color: #f53A50;
 }
-.productosunique p{
+.exclusive-products p{
     margin-top: 6%;
 }
-.productosunique b{
+.exclusive-products p{
     color: #f53A50;
 }
 
@@ -404,12 +404,12 @@ nav a{
 
 /* EMPIEZA EL FORMULARIO */
 
-.formulariomadre{
+.form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contact{
+.contacto{
     padding-top: 3%;
     font-size: 45px;
     color: #f53A50;
@@ -420,7 +420,7 @@ nav a{
     flex-direction: column;
 
 }
-.primeralinea{
+.linea-1{
     display: flex;
 }
 .name, .email{
